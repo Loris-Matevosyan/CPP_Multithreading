@@ -19,7 +19,7 @@ SOURCE_DIR = Src
 SOURCE = $(SOURCE_DIR)/*.cpp
 
 build:
-	@g++ -std=c++20 -I $(HEADER_DIR) $(SOURCE) -o exec
+	@g++ -std=c++20 -I $(HEADER_DIR) $(SOURCE) -o $(EXECUTABLE)
 
 execute:
 	@$(EXECUTABLE)
